@@ -7,7 +7,7 @@ Unzip contents of this Gitrepo in the root of MediacenterJS.
 
 Then run the following commands in the root dir of mediacenterjs in terminal/command prompt :
 
-    npm install npode-gyp
+    npm install node-gyp
   
     npm install spotify
   
