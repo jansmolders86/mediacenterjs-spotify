@@ -7,14 +7,14 @@ Unzip contents of this Gitrepo in the root of MediacenterJS.
 
 Then run the following commands in the root dir of mediacenterjs in terminal/command prompt :
 
-  npm install npode-gyp
+    npm install npode-gyp
   
-  npm install spotify
+    npm install spotify
   
-  npm install spotify-web
+    npm install spotify-web
   
-  npm install lame
+    npm install lame
   
-  npm install speaker
+    npm install speaker
   
 These modules are dependent of node-Gyp to install on windows.
