@@ -1,7 +1,10 @@
 mediacenterjs-spotify-app
 =========================
 
-An app for mediacenterjs enabeling you to play spotify tracks
+An app for mediacenterjs enabeling you to play spotify tracks.
+
+version 0.0.1- Basic Spotify playback is working now. You can add your credentials in the settings menu and tracks will play directly through the speakers.
+  Playback controls and song information will be implemented later.
 
 Unzip contents of this Gitrepo in the root of MediacenterJS.
 
