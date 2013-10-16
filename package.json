@@ -7,6 +7,9 @@
 		"email": "jansmolders86@gmail.com"
 	},
 	"version": "0.0.1",
+	"peerDependencies": {
+		"mediacenterjs": "*"
+	},
 	"dependencies": {
 		"express": "3.x",
 		"node-gyp": "0.10.10",
