@@ -1,6 +1,6 @@
 {
 	"name": "mediacenterjs-spotify",
-	"description": "A Spotify app for mediacenterjs",
+	"description": "A Spotify app for mediacenterjs (highly experimental)",
 	"homepage": "http://www.mediacenterjs.com",
 	"author": {
 		"name": "Jan Smolders",
