@@ -1,0 +1,14 @@
+﻿[
+    {
+        "name": "spotifyUser",
+        "label": "Spotify Username",
+        "type": "text",
+        "placeholder": "Spotify username"
+    },
+    {
+        "name": "spotifyPass",
+        "label": "Spotify password",
+        "type": "password",
+        "placeholder": "Spotify password"
+    }
+]
