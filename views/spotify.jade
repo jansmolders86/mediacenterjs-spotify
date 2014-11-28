@@ -1,29 +1,26 @@
-doctype 5
-html(lang="en")
-	head
-		// Core inclusion
-		link(rel='stylesheet', href='/core/css/style.css')
-		script(src="/core/js/jquery-1.8.2.min.js")
-		script(src="/core/js/plugins/jquery.idle-timer.js")		
-		script(src="/core/js/jquery.mcjs.core.js")
+extends /layout
 
-		title Spotify
-		
-		link(rel='stylesheet', href='/mediacenterjs-spotify/public/css/style.css')
-		script(src="/mediacenterjs-spotify/public/js/jquery.spotify.js")
-		
-		script.
-			$(function(){
-				$('body').mcjs();
-				$('body').spotify();
-			});
-	body
-		#header
-			a.backlink(href="/") &#xe113;
-			h1 Spotify
-		#wrapper
-			form#searchWrapper(method="post") 
-				h1 Find tracks
-				input.search(type="text")
-				input.btn(type="submit",value="Search")
-			ul#results
+block declarations
+	- additional_title = Spotify;
+
+block additional_css
+	link(rel='stylesheet', href='/mediacenterjs-spotify/public/css/style.css')
+
+block additional_scripts
+	script(src="/mediacenterjs-spotify/public/js/jquery.spotify.js")
+
+block body
+		header
+			.container
+				.row
+					.col-md-12
+						a.backlink(href="/") &#xe113;
+						h1.hidden-xs Spotify
+		.container
+			.row
+				.col-md-12			
+					form#searchWrapper(method="post") 
+						h1 Find tracks
+						input.search(type="text")
+						input.btn(type="submit",value="Search")
+					ul#results		
